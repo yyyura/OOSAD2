@@ -26,4 +26,9 @@ public class CreditCard {
 		throw new UnsupportedOperationException();
 	}
 
+	public void checkOut() {
+		// TODO - implement CreditCard.checkOut
+		throw new UnsupportedOperationException();
+	}
+
 }

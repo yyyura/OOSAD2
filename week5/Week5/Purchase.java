@@ -23,4 +23,9 @@ public class Purchase {
 		throw new UnsupportedOperationException();
 	}
 
+	public void computeCurrentTotal() {
+		// TODO - implement Purchase.computeCurrentTotal
+		throw new UnsupportedOperationException();
+	}
+
 }

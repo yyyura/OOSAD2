@@ -7,17 +7,17 @@ public class ShoppingCart {
 		throw new UnsupportedOperationException();
 	}
 
-	public void deleteAllitems() {
+	public void deleteAllItems() {
 		// TODO - implement ShoppingCart.deleteAllitems
 		throw new UnsupportedOperationException();
 	}
 
-	public void addItemCart() {
+	public void addItemToCart() {
 		// TODO - implement ShoppingCart.addItemCart
 		throw new UnsupportedOperationException();
 	}
 
-	public void printItems() {
+	public void showItemsInCart() {
 		// TODO - implement ShoppingCart.printItems
 		throw new UnsupportedOperationException();
 	}
