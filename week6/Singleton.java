@@ -1,17 +1,23 @@
 public class Singleton {
 
-	//static member
-	private static Singleton singleton;
+    //static member
+    private static Singleton instance;
 
-	//private constructor	
-	private Singleton() {}
+    //private constructor	
+    private Singleton() {
+    }
 
-	//staic method
-	public static Singleton getInstance() {
-		if (singleton == null){
-		singleton = new Singleton();
-		}
-		return singleton; 		
-	}
+    //staic method
+    public static Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
 
+    /* Other methods protected by singleton-ness */
+    protected static void demoMethod() {
+        System.out.println("demoMethod for singleton");
+
+    }
 }
