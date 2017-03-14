@@ -8,9 +8,10 @@ public class Singleton {
 
 	//staic method
 	public static Singleton getInstance() {
-		if(singleton == null){
-			singleton = new Singleton();
-			}		
+		if (singleton == null){
+		singleton = new Singleton();
+		}
+		return singleton; 		
 	}
 
 }
